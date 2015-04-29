@@ -1,0 +1,22 @@
+#team .people {
+  margin-top: 1em;
+}
+
+#team .people img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+#team .names {
+  font-family: 'Open Sans','Helvetica',Arial,sans-serif;
+}
+
+#team .names .name {
+  margin-top: 0.7em;
+  font-size: 1.3em;
+}
+
+#team .names .title {
+  font-size: 1em;
+  font-weight: 100;
+}
