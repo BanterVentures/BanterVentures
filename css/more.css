@@ -1,5 +1,10 @@
 #team .people {
   margin-top: 1em;
+  font-family: 'Open Sans','Helvetica',Arial,sans-serif;
+}
+
+#team .people > div {
+  margin-bottom: 1em;
 }
 
 #team .people img {
@@ -7,20 +12,17 @@
   width: 100%;
 }
 
-#team .names {
-  font-family: 'Open Sans','Helvetica',Arial,sans-serif;
-}
-
-#team .names .name {
+#team .people .name {
   margin-top: 0.7em;
   font-size: 1.3em;
 }
 
-#team .names .title {
+#team .people .title {
   font-weight: 100;
 }
 
-#team .names .twitter a {
+
+#team .people .twitter a {
   font-weight: 100;
   text-decoration: none;
   color: white;
@@ -28,6 +30,6 @@
   transition: border-bottom .1s linear;
 }
 
-#team .names .twitter a:hover {
+#team .people .twitter a:hover {
   border-bottom: 1px dotted rgba(255,255,255,0); 
 }
