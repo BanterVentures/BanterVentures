@@ -26,17 +26,17 @@
   font-weight: 100;
   text-decoration: none;
   color: white;
-  border-bottom: 1px dotted rgba(255,255,255,0.5); 
+  border-bottom: 1px dotted rgba(255,255,255,0.5);
   transition: border-bottom .1s linear;
 }
 
 #team .people .twitter a:hover {
-  border-bottom: 1px dotted rgba(255,255,255,0); 
+  border-bottom: 1px dotted rgba(255,255,255,0);
 }
 
 .yoicon {
-  height: 3em;
   border-radius: 4px;
+  height: 37px;
 }
 
 .space {
