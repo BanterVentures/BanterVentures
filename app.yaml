@@ -11,6 +11,8 @@ handlers:
   static_dir: js
 - url: /media
   static_dir: media
+- url: /startups
+  static_dir: startups
 - url: /.*
   script: app.application
 
