@@ -112,7 +112,9 @@
             <h2 class="section-heading">Have you got what it takes?</h2>
             <hr class="light">
             <p class="text-faded">Here's to the crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes... the ones who see things differently -- they're not fond of rules... You can quote them, disagree with them, glorify or vilify them, but the only thing you can't do is ignore them because they change things... they push the human race forward, and while some may see them as the crazy ones, we see genius, because the ones who are crazy enough to think that they can change the world, are the ones who do. - Steve Wozniak</p>
-            <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+            <div class="btn-group" role="group" aria-label="...">
+              <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+            </div>          
           </div>
         </div>
       </div>
@@ -165,77 +167,18 @@
       <div class="container-fluid">
         <div class="row no-gutter">
 
-          <!-- Joes Boxes -->
+          {% for x in startups %}
           <div class="col-lg-4 col-sm-6">
-            <a href="http://www.joe-needs.help/" class="portfolio-box" target="_blank">
-              <img src="media/startups/joes-boxes.png" class="img-responsive">
+            <a href="{{ x.link }}" class="portfolio-box" target="_blank">
+              <img src="{{ x.image_650x350 }}" class="img-responsive">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
-                  <div class="project-name">Joes Boxes</div>
+                  <div class="project-name">{{ x.company_name }}</div>
                 </div>
               </div>
             </a>
           </div>
-
-          <!-- mockup -->
-          <div class="col-lg-4 col-sm-6">
-            <a href="#" class="portfolio-box" target="_blank">
-              <img src="http://placehold.it/650x350/1abc9c/ffffff&text=coming soon..." class="img-responsive">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">Coming soon...</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- mockup -->
-          <div class="col-lg-4 col-sm-6">
-            <a href="#" class="portfolio-box" target="_blank">
-              <img src="http://placehold.it/650x350/3498db/ffffff&text=coming soon..." class="img-responsive">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">Coming soon...</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- mockup -->
-          <div class="col-lg-4 col-sm-6">
-            <a href="#" class="portfolio-box" target="_blank">
-              <img src="http://placehold.it/650x350/9b59b6/ffffff&text=coming soon..." class="img-responsive">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">Coming soon...</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- mockup -->
-          <div class="col-lg-4 col-sm-6">
-            <a href="#" class="portfolio-box" target="_blank">
-              <img src="http://placehold.it/650x350/f1c40f/ffffff&text=coming soon..." class="img-responsive">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">Coming soon...</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- mockup -->
-          <div class="col-lg-4 col-sm-6">
-            <a href="#" class="portfolio-box" target="_blank">
-              <img src="http://placehold.it/650x350/e74c3c/ffffff&text=coming soon..." class="img-responsive">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">Coming soon...</div>
-                </div>
-              </div>
-            </a>
-          </div>
+          {% endfor %}
 
         </div>
       </div>
@@ -316,10 +259,10 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
+
       ga('create', 'UA-62543833-1', 'auto');
       ga('send', 'pageview');
-    
+
     </script>
 
   </body>
