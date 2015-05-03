@@ -12,7 +12,7 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        startups = json.loads(urlfetch.fetch("https://raw.githubusercontent.com/BanterVentures/Portfolio/master/startups.json").content)
+        startups = json.loads(urlfetch.fetch("https://raw.githubusercontent.com/BanterVentures/Portfolio/master/data/startups.json").content)
         investors = json.loads(urlfetch.fetch("https://raw.githubusercontent.com/BanterVentures/Portfolio/master/data/investors.json").content)
         mentors = json.loads(urlfetch.fetch("https://raw.githubusercontent.com/BanterVentures/Portfolio/master/data/mentors.json").content)
         template = JINJA_ENVIRONMENT.get_template('index.html')
