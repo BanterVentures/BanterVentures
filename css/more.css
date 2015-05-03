@@ -43,3 +43,16 @@
 .space {
   margin-top: 2em !important;
 }
+
+#InvestorsMentors img{
+  width: 100%;
+}
+#InvestorsMentors .portfolio-box{
+margin-bottom: 10px;
+}
+#InvestorsMentors img, #InvestorsMentors .portfolio-box-caption{
+  border-radius: 5px;
+}
+#InvestorsMentors .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{
+  font-size: 15px;
+}

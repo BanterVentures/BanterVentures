@@ -99,7 +99,7 @@
           <h1>The world's first  innovation-first VC firm</h1>
           <hr>
           <p>Investing in the future of innovation and exponential technological change via a course of growth hacking to disruption. Elastically scaled. On demand. In the cloud.</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+          <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
       </div>
     </header>
@@ -242,6 +242,74 @@
       </div>
     </section>
 
+    <section id="InvestorsMentors">
+      <div class="container">
+        <div class="row text-center">
+
+        <!-- Investors -->
+          <div class="col-lg-5">
+            <div class="row">
+              <h2 class="section-heading">Investors</h2>
+              <hr class="primary">
+            </div>
+            <div class="row">
+
+              {% for x in investors %}
+              <div class="col-xs-3">
+                <a href="https://twitter.com/{{ x.twtter }}" class="portfolio-box" target="_blank">
+                  <img src="{{ x.img }}">
+                  <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                      <div class="project-name">{{ x.name }}</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              {% endfor %}
+
+            </div>
+          </div>
+
+          <!-- Mentors -->
+            <div class="col-lg-5 col-lg-offset-2">
+              <div class="row">
+                <h2 class="section-heading">Mentors</h2>
+                <hr class="primary">
+              </div>
+              <div class="row">
+
+                {% for x in mentors %}
+                <div class="col-xs-3">
+                  <a href="https://twitter.com/{{ x.twtter }}" class="portfolio-box" target="_blank">
+                    <img src="{{ x.img }}">
+                    <div class="portfolio-box-caption">
+                      <div class="portfolio-box-caption-content">
+                        <div class="project-name">{{ x.name }}</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                {% endfor %}
+
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <aside class="bg-dark" id="getstarted">
+      <div class="container text-center">
+        <div class="call-to-action">
+          <h2>Looking to change the world? <b>Join us.</b></h2>
+          <div class="btn-group wow tada" role="group" aria-label="...">
+            <a href="http://goo.gl/forms/HYOm5G7Rrp" class="btn btn-default btn-xl" target=_blank>Startups</a>
+            <a href="http://goo.gl/forms/6uoA2ImA22" class="btn btn-default btn-xl" target=_blank>Investors</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
     <section id="contact">
       <div class="container">
         <div class="row">
@@ -249,50 +317,46 @@
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="primary">
             <p>Existing communications standards such as phone numbers and email addresses are too mainstream for us. Contact us today using whatever is the latest and most hip communication platform of this week.</p>
+            <br>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-lg-offset-2 text-center">
+              <i class="fa fa-twitter-square fa-3x wow bounceIn"></i>
+              <p><a href="https://twitter.com/BanterVentures" target="_blank">@banterventures</a></p>
+            </div>
+            <div class="col-lg-2 text-center">
+              <i class="fa fa-facebook-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+              <p><a href="https://www.facebook.com/banterventures" target="_blank">@banterventures</a></p>
+            </div>
+            <div class="col-lg-2 text-center">
+              <img class="wow bounceIn yoicon" data-wow-delay=".1s" src="media/yo.png"/>
+              <p><a href="https://www.justyo.co/BANTERVENTURES/" target="_blank">@banterventures</a></p>
+            </div>
+            <div class="col-lg-2 text-center">
+              <i class="fa fa-git-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+              <p><a href="https://github.com/BanterVentures" target="_blank">@banterventures</a></p>
+            </div>
           </div>
         </div>
+      </section>
 
-        <br><br>
-
-        <div class="row">
-          <div class="col-lg-2 col-lg-offset-2 text-center">
-            <i class="fa fa-twitter-square fa-3x wow bounceIn"></i>
-            <p><a href="https://twitter.com/BanterVentures" target="_blank">@banterventures</a></p>
-          </div>
-          <div class="col-lg-2 text-center">
-            <i class="fa fa-facebook-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-            <p><a href="https://www.facebook.com/banterventures" target="_blank">@banterventures</a></p>
-          </div>
-          <div class="col-lg-2 text-center">
-            <img class="wow bounceIn yoicon" data-wow-delay=".1s" src="media/yo.png"/>
-            <p><a href="https://www.justyo.co/BANTERVENTURES/" target="_blank">@banterventures</a></p>
-          </div>
-          <div class="col-lg-2 text-center">
-            <i class="fa fa-git-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-            <p><a href="https://github.com/BanterVentures" target="_blank">@banterventures</a></p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- js -->
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="js/creative.js"></script>
-    <script>
+      <!-- js -->
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <script src="js/creative.js"></script>
+      <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-62543833-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
+      </script>
 
-  </body>
-  </html>
+    </body>
+    </html>
