@@ -2,32 +2,32 @@
   {
     "name": "‎Phil Efstathiou",
     "twitter": "philefstat",
-    "img": "https://pbs.twimg.com/profile_images/514407117667569665/IBD3u0KV.jpeg"
+    "img": "/media/mentors/phil.jpg"
   },
   {
     "name": "Jonjoe Whitfield",
     "twitter": "TheDigitalDinlo",
-    "img": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t34.0-12/11198955_10153211130556352_1208895001_n.jpg?oh=9788a7f936b68266a8546fb35bfc2b74&oe=55484F73&__gda__=1430862110_bf372618d0e9726ac6a9e7095c6b7c5a"
+    "img": "/media/mentors/jonjoe.jpg"
   },
   {
     "name": "Jessica Crosby",
     "twitter": "Jhyp3",
-    "img": "https://pbs.twimg.com/profile_images/572812027748311040/-azxJ3Ei.jpeg"
+    "img": "/media/mentors/jessica.jpg"
   },
   {
     "name": "Eric Volpert",
     "twitter": "VolpTech",
-    "img": "https://pbs.twimg.com/profile_images/594686110716014593/LR7Smarm.jpg"
+    "img": "/media/mentors/eric.jpg"
   },
   {
     "name": "Usman Mohammad",
     "twitter": "Strider_BZ",
-    "img": "https://farm8.staticflickr.com/7441/16288950269_fb81c40290_q_d.jpg"
+    "img": "/media/mentors/usman.jpg"
   },
   {
     "name": "Zahra Taiba",
     "twitter": "zahrataiba",
-    "img": "https://scontent-lhr.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10346199_1593154357582368_682940752895612860_n.jpg?oh=d4408596945ad5a4224f15f08caac5f2&oe=55D214A4"
+    "img": "/media/mentors/zahra.jpg"
   },
   {
     "img": "http://placehold.it/201x201&text=TBA"
@@ -36,5 +36,3 @@
     "img": "http://placehold.it/201x201&text=TBA"
   }
 ]
-
-
