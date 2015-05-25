@@ -13,12 +13,7 @@
     "name": "Jessica Crosby",
     "link": "https://twitter.com/Jhyp3",
     "img": "/media/mentors/jessica.jpg"
-  },
-  {
-    "name": "Eric Volpert",
-    "link": "https://twitter.com/VolpTech",
-    "img": "/media/mentors/eric.jpg"
-  },
+  }
   {
     "name": "Usman Mohammad",
     "link": "https://twitter.com/Strider_BZ",
@@ -28,6 +23,9 @@
     "name": "Zahra Taiba",
     "link": "https://twitter.com/zahrataiba",
     "img": "/media/mentors/zahra.jpg"
+  },
+  {
+    "img": "http://placehold.it/92x92&text=TBA"
   },
   {
     "img": "http://placehold.it/92x92&text=TBA"
