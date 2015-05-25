@@ -1,39 +1,42 @@
 [
   {
     "name": "Orlando Kryptonite",
-    "twitter": "orliesaurus",
+    "link": "https://twitter.com/orliesaurus",
     "img": "/media/investors/orlando.jpg"
   },
   {
     "name": "Hugh Rawlinson",
-    "twitter": "hughrawlinson",
+    "link": "https://twitter.com/hughrawlinson",
     "img": "/media/investors/hugh.jpg"
   },
   {
     "name": "Angus Pearson",
+    "link": "https://www.facebook.com/angus.pearson.5",
     "img": "/media/investors/angus.jpg"
   },
   {
     "name": "Shad Jahangir",
-    "twitter": "_shadj",
+    "link": "https://twitter.com/_shadj",
     "img": "/media/investors/shad.jpg"
   },
   {
     "name": "Robin Johnson",
-    "twitter": "rbin",
+    "link": "https://twitter.com/rbin",
     "img": "/media/investors/robin.jpg"
   },
   {
     "name": "Alex Reed",
-    "twitter": "0xdeafcafe",
+    "link": "https://twitter.com/0xdeafcafe",
     "img": "/media/investors/alex.jpg"
   },
   {
     "name": "Scotty Shaw",
-    "twitter": "thefreshduke",
+    "link": "https://twitter.com/thefreshduke",
     "img": "/media/investors/scotty.jpg"
   },
   {
-    "img": "http://placehold.it/92x92&text=TBA"
+    "name": "Maya Nathwani",
+    "link": "http://maya-nathwani.tumblr.com",
+    "img": "/media/investors/maya.jpg"
   }
 ]
