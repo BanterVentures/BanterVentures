@@ -11,6 +11,9 @@ handlers:
   static_dir: js
 - url: /media
   static_dir: media
+- url: /data
+  static_dir: data
+  application_readable: true
 - url: /.*
   script: app.application
 
