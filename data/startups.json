@@ -1,28 +1,26 @@
 [
   {
     "company_name": "Joe's Boxes",
-    "html_title": "Joe's Boxes",
-    "link": "http://www.joe-needs.help/",
-    "image_650x350": "http://www.joe-needs.help/resources/650x350.png",
-    "image_1200x630": "http://www.joe-needs.help/resources/1200x630.jpg"
+    "link": "http://www.joe-needs.help",
+    "image": "media/startups/joes-boxes.png"
   },
   {
     "company_name": "Dankest Apps Co.",
-    "html_title": "Dankest Apps Co.",
-    "link": "http://dank.infinite.pizza/",
-    "image_650x350": "http://dank.infinite.pizza/650x350.fw.png",
-    "image_1200x630": "http://dank.infinite.pizza/1200x630.fw.png"
+    "link": "http://dank.infinite.pizza",
+    "image": "media/startups/dankest-apps.fw.png"
   },
   {
-    "image_650x350": "http://placehold.it/650x350/3498db/ffffff&text=Coming soon..."
+    "company_name": "Sy’s Storage",
+    "link": "http://sys-storage.space",
+    "image": "media/startups/sys-storage.jpg"
   },
   {
-    "image_650x350": "http://placehold.it/650x350/9b59b6/ffffff&text=Coming soon..."
+    "image": "http://placehold.it/650x350/9b59b6/ffffff&text=Coming soon..."
   },
   {
-    "image_650x350": "http://placehold.it/650x350/e67e22/ffffff&text=Coming soon..."
+    "image": "http://placehold.it/650x350/e67e22/ffffff&text=Coming soon..."
   },
   {
-    "image_650x350": "http://placehold.it/650x350/95a5a6/ffffff&text=Coming soon..."
+    "image": "http://placehold.it/650x350/95a5a6/ffffff&text=Coming soon..."
   }
 ]

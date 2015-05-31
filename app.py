@@ -1,7 +1,6 @@
 import os
 import jinja2
 import webapp2
-from google.appengine.api import urlfetch
 import json
 
 JINJA_ENVIRONMENT = jinja2.Environment(
@@ -12,11 +11,11 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        startups = json.loads(urlfetch.fetch("https://raw.githubusercontent.com/BanterVentures/Portfolio/master/data/startups.json").content)
-        investors = json.loads(urlfetch.fetch("https://raw.githubusercontent.com/BanterVentures/Portfolio/master/data/investors.json").content)
-        mentors = json.loads(urlfetch.fetch("https://raw.githubusercontent.com/BanterVentures/Portfolio/master/data/mentors.json").content)
         template = JINJA_ENVIRONMENT.get_template('index.html')
-        self.response.write(template.render({"startups": startups, "investors": investors, "mentors": mentors}))
+        self.response.write(template.render({
+            "startups": json.load(open('data/startups.json')),
+            "investors": json.load(open('data/investors.json')),
+            "mentors": json.load(open('data/mentors.json'))}))
 
 
 application = webapp2.WSGIApplication([
